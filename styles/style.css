@@ -1,0 +1,356 @@
+body {
+    font-family: 'Poiret One', cursive;
+    background: black;
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    height: 765px;
+    background-color: #362B32;
+}
+
+.header-container {
+    margin: 0 auto;
+    width: 1400px;
+    height: 765px;
+    padding-top: 27px; 
+    padding-right: 124px; 
+    padding-left: 132px;
+    background-image: url('../resources/me.png');
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: fixed;
+    background-position: bottom right;
+}
+
+.logo-text-wrapper {
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    width: 170px;
+    line-height: 52px;
+    height: 52px;
+    font-size: 42.41px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #c8a2c8;
+    background-color: black;
+}
+
+.nav {
+    display: inline;
+}
+
+.nav__link {
+    float: right;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.nav__link:hover {
+    color: #c8a2c8;
+}
+
+.header-dsc {
+    position: absolute;
+    top: 334px;
+    width: 380px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+h1 {
+    position: absolute;
+    top: 466px;
+    width: 880px;
+    font-size: 80px;
+    color: #c8a2c8;
+}
+
+main {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    background-color: black;
+}
+
+.projects {
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 150px;
+    padding-right: 124px; 
+    padding-left: 132px;
+    padding-bottom: 150px;
+}
+
+.project-img {
+    position: relative;
+    width: 1150px;
+    height: 550px;
+    border-radius: 30px;
+    box-shadow: 30px 30px 50px 30px #000000;
+}
+
+.projects-title {
+    margin-bottom: 40px;
+    font-size: 55px;
+    color: #FFFFFF;
+}
+
+.projects-list {
+    padding-bottom: 80px;
+}
+
+.project {
+    position: relative;
+    margin: 0 auto;
+    width: 1150px;
+    height: 550px;
+}
+
+.project-title {
+    position: absolute;
+    left: 50px;
+    bottom: 94px;
+    font-size: 35px;
+    text-shadow: 1px 1px 5px #000000;
+    color: #FFFFFF;
+}
+
+.project-dsc {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px #000000;
+    color: #FFFFFF;
+}
+
+.projects-link {
+    display: block;
+    width: 582px;
+    height: 153px;
+    padding: 56px 85px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 39px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    background: #c8a2c8;
+}
+
+.projects-link:hover {
+    color: #c8a2c8;
+    background: #000000;
+    border: 2px solid #c8a2c8;
+}
+
+.skills {
+    margin: 0 auto;
+    width: 1400px;
+    padding-right: 124px; 
+    padding-left: 132px;
+    padding-bottom: 30px;
+}
+
+.skills-title {
+    font-size: 55px;
+    color: #FFFFFF;
+    padding-bottom: 104px;
+}
+
+.skill-title {
+    position: relative;
+    font-size: 35px;
+    color: #c8a2c8;
+    padding-bottom: 15px;
+}
+
+.skill-dsc {
+    width: 778px;
+    font-size: 22px;
+    color: #FFFFFF;
+    padding-bottom: 120px;
+}
+
+.skill-html-css::before {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 58px;
+    background-image: url('../resources/html-icon.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 60%;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #c8a2c8;
+}
+
+.skill-js::before {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 58px;
+    background-image: url('../resources/js-icon.png');
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: 60%;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #c8a2c8;
+}
+
+.skill-library::before {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 58px;
+    background-image: url('../resources/library-icon.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40%;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #c8a2c8;
+}
+
+.skill-dev-mobile::before {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 58px;
+    background-image: url('../resources/mobile-icon.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 60%;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #c8a2c8;
+}
+
+.services {
+    margin: 0 auto;
+    width: 1400px;
+    padding-right: 124px; 
+    padding-left: 132px;
+    padding-bottom: 76px;
+}
+
+.services-title {
+    padding-bottom: 74px;
+    width: 403px;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.service-wrapper {
+    margin-bottom: 74px;
+    width: 1150px;
+    height: 250px;
+    border-radius: 30px;
+    background: #191C19;
+    padding: 40px;
+}
+
+.service-img {
+    width: 1150px;
+}
+
+.service-title {
+    padding-bottom: 15px;
+}
+
+.service-title-link {
+    font-size: 55px;
+    text-decoration: none;
+    color: #c8a2c8;
+}
+
+.service-dsc {
+    width: 650px;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.contacts {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    height: 717px;
+    border-radius: 30px;
+    background: #191C19;
+    background-image: url('../resources/developer.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-bottom: 150px;
+}
+
+.contacts-container {
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 320px;
+    padding-right: 124px; 
+    padding-left: 132px;
+}
+
+.contacts-title {
+    padding-bottom: 28px;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.contact-link:hover {
+    color: #c8a2c8;
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    border-radius: 30px 30px 0 0;
+    background: #FFFFFF;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 76px;
+    padding-right: 124px; 
+    padding-left: 132px;
+    padding-bottom: 15px;
+}
+
+.footer-title {
+    padding-bottom: 66px;
+    font-size: 22px;
+    color: #000000;
+}
+
+.rights {
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.5;
+}

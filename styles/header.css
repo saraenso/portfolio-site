@@ -1,0 +1,67 @@
+header {
+    height: 765px;
+    background-color: #362B32;
+}
+
+.header-bg {
+    height: 765px;
+    background-image: url('../resources/me.png');
+    background-repeat: no-repeat;
+    background-size: 400px;
+    
+    background-position: bottom right;
+}
+
+.header-wrapper {
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 255px;
+}
+
+.header-logo {
+    display: inline-block;
+    padding: 0 18px 0 20px;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+    color: #c8a2c8;
+    background-color: #000000;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+}
+
+.nav__link {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.nav__link:hover {
+    color: #c8a2c8;
+}
+
+.header-desc-wrapper {
+    max-width: 410px;
+    margin-bottom: 29px;
+}
+
+.header-desc {
+    font-size: 23px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.header-title-wrapper {
+    max-width: 830px;
+}
+
+.header-title {
+    font-size: 80px;
+    line-height: 70px;
+    color: #c8a2c8;
+}

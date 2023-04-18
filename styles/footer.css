@@ -1,0 +1,46 @@
+footer {
+    padding: 76px 125px 32px 125px;
+    border-radius: 30px 30px 0 0;
+    background: #FFFFFF;
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 65px;
+}
+
+.footer-text {
+    width: calc(50% - 100px);
+}
+
+.footer-title {
+    font-size: 22px;
+    line-height: 30px;
+    color: black;
+}
+
+.footer-social-media-list {
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+}
+
+.footer-social-media-link {
+    font-size: 22px;
+    line-height: 30px;
+    color: black;
+}
+
+.rights {
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.rights_policy {
+    display: flex;
+    justify-content: end;
+}

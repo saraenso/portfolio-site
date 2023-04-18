@@ -1,0 +1,60 @@
+.services-title {
+    max-width: 450px;
+    margin-bottom: 80px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.service-bg {
+    display: block;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+    border-radius: 30px;
+}
+
+.service-bg_html {
+    background-image: url('../resources/developing.png');
+}
+
+.service-bg_dev {
+    background-image: url('../resources/codinghtml.png');
+}
+
+.service-bg_mob {
+    background-image: url('../resources/mobiledev.png');
+}
+
+.service-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 283px;
+    border-radius: 30px;
+    background: #191C19;
+}
+
+.service-text-wrapper {
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    width: calc(50% - 35px);
+    padding: 0 40px 0 40px;
+}
+
+.service-title {
+    line-height: 60px;
+    color: #c8a2c8;
+}
+
+.service-desc {
+    font-size: 25px;
+    line-height: 29px;
+}

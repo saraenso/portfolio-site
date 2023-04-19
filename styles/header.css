@@ -259,6 +259,10 @@ header {
     .burger-btn__line::after {
         width: 30px;
     }
+
+    .js-burger-btn.burger-btn.burger-btn_open .burger-btn__line::after {
+        transform: rotate(90deg) translate(-10px, 0);;
+    }
 }
 
 @media (max-width: 460px) {

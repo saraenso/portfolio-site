@@ -14,8 +14,9 @@
     display: block;
     height: 200px;
     width: 100%;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
     object-fit: cover;
-    object-position: 50%;
     border-radius: 30px;
 }
 
@@ -25,6 +26,7 @@
 
 .service-bg_dev {
     background-image: url('../resources/codinghtml.png');
+    background-position-y: 50%;
 }
 
 .service-bg_mob {
@@ -37,6 +39,7 @@
     flex-wrap: wrap;
     align-items: center;
     height: 283px;
+    padding: 40px 40px 0 40px;
     border-radius: 30px;
     background: #191C19;
 }
@@ -44,9 +47,8 @@
 .service-text-wrapper {
     display: flex;
     align-items: flex-start;
-    height: 200px;
+    height: 100%;
     width: calc(50% - 35px);
-    padding: 0 40px 0 40px;
 }
 
 .service-title {
@@ -57,4 +59,82 @@
 .service-desc {
     font-size: 25px;
     line-height: 29px;
+}
+
+@media (max-width: 1199px) {
+    .services-title {
+        margin-bottom: 60px;
+    }
+    
+    .services {
+        gap: 32px;
+        margin-bottom: 110px;
+    }
+    
+    .service-bg {
+        height: 162px;
+        background-position-y: 15%;
+    }
+
+    .service-bg_dev {
+        background-position-y: 50%;
+    }
+    
+    .service-box {
+        padding: 32px 32px 0 32px;
+    }
+    
+    .service-text-wrapper {
+        width: calc(50% - 23px);
+    }
+    
+    .service-title {
+        line-height: 44px;
+    }
+    
+    .service-desc {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services-title {
+        max-width: 326px;
+    }
+    
+    .services {
+        gap: 60px;
+        margin-bottom: 100px;
+    }
+    
+    .service-bg {
+        height: 225px;
+        background-size: cover;
+    }
+    
+    .service-box {
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 15px;
+        height: unset;
+        padding: 30px 40px 60px 40px;
+    }
+    
+    .service-text-wrapper {
+        display: flex;
+        align-items: flex-start;
+        height: unset;
+        width: 100%;
+        padding: unset;
+    }
+    
+    .service-title {
+        line-height: 30px;
+    }
+    
+    .service-desc {
+        font-size: 18px;
+        line-height: 23px;
+    }
 }

@@ -5,6 +5,10 @@
 @import url('../styles/section-forms.css');
 @import url('../styles/footer.css');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poiret One', cursive;
     background: black; 
@@ -27,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 46px;
     color: #FFFFFF;
 }
@@ -35,4 +39,39 @@ h3 {
 a {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+@media (max-width: 1199px) {
+    .container { 
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h2 {
+        font-size: 45px;
+        line-height: 58px;
+    }
+
+    h3 {
+        font-size: 38px;
+        line-height: 39px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 29px;
+    }
 }

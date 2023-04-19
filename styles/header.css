@@ -154,6 +154,12 @@ header {
         width: 40%;
         height: 100%;
         background-color: black;
+        transition: transform 0.4s linear;
+        transform: translateX(100%);
+    }
+
+    .burger_open .burger__content {
+        transform: translateX(0);
     }
     
     .burger-inner {

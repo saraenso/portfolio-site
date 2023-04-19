@@ -75,7 +75,7 @@ header {
 
 .burger {
     position: fixed;
-    z-index: 101;
+    z-index: 105;
     top: 0;
     left: 0;
     width: 100%;
@@ -85,61 +85,6 @@ header {
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s ease;
-}
-
-.burger_open {
-    opacity: 1;
-    visibility: visible;
-}
-
-.burger__content {
-    overflow-y: auto;
-    width: 40%;
-    height: 100%;
-    background-color: black;
-}
-
-.burger-inner {
-    padding: 60px 0 0 28px;
-}
-
-.burger-logo {
-    margin-bottom: 40px;
-    border: 2px solid #c8a2c8;
-}
-
-.burger-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 21px;
-    padding-left: 15px;
-    margin-bottom: 91px;
-}
-
-.burger-nav__link {
-    font-size: 25px;
-    line-height: 32px;
-    text-transform: uppercase;
-}
-
-.burger-for-contact {
-    margin-bottom: 20px;
-    padding-left: 15px;
-    font-size: 20px;
-    line-height: 21px;
-    opacity: 0.5;
-}
-
-.burger-row {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-left: 15px;
-}
-
-.burger-social-media-link {
-    font-size: 25px;
-    line-height: 32px;
 }
 
 @media (max-width: 1199px) {
@@ -163,7 +108,7 @@ header {
     .burger-btn {
         position: relative;
         display: block;
-        z-index: 105;
+        z-index: 106;
         width: 70px;
         height: 50px;
     }
@@ -197,6 +142,61 @@ header {
 
     .js-burger-btn.burger-btn.burger-btn_open .burger-btn__line::after {
         transform: rotate(90deg) translate(-8px, 0);;
+    }
+    
+    .burger_open {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .burger__content {
+        overflow-y: auto;
+        width: 40%;
+        height: 100%;
+        background-color: black;
+    }
+    
+    .burger-inner {
+        padding: 60px 0 0 28px;
+    }
+    
+    .burger-logo {
+        margin-bottom: 40px;
+        border: 2px solid #c8a2c8;
+    }
+    
+    .burger-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        padding-left: 15px;
+        margin-bottom: 91px;
+    }
+    
+    .burger-nav__link {
+        font-size: 25px;
+        line-height: 32px;
+        text-transform: uppercase;
+    }
+    
+    .burger-for-contact {
+        margin-bottom: 20px;
+        padding-left: 15px;
+        font-size: 20px;
+        line-height: 21px;
+        opacity: 0.5;
+    }
+    
+    .burger-row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 15px;
+    }
+    
+    .burger-social-media-link {
+        font-size: 25px;
+        line-height: 32px;
     }
 }
 

@@ -16,6 +16,14 @@
     width: 100%;
 }
 
+.project-link-block {
+    z-index: 101;
+}
+
+.project-title:hover {
+    color: #c8a2c8;
+}
+
 .project-img {
     width: 100%;
     height: 550px;

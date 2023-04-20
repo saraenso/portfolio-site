@@ -1,6 +1,6 @@
 header {
     height: 765px;
-    background-color: #362B32;
+    background: #362B32;
 }
 
 .body_fixed {
@@ -133,14 +133,16 @@ header {
         width: 50px;
         height: 3px;
         background: #c8a2c8;
-        transition: all 0.7s ease;
+        transition: all 0.4s ease;
     }
 
     .js-burger-btn.burger-btn.burger-btn_open .burger-btn__line {
+        width: 40px;
         transform: rotate(-45deg);
     }
 
     .js-burger-btn.burger-btn.burger-btn_open .burger-btn__line::after {
+        width: 40px;
         transform: rotate(90deg) translate(-8px, 0);;
     }
     

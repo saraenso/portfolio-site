@@ -268,7 +268,13 @@ header {
         width: 30px;
     }
 
+    .js-burger-btn.burger-btn.burger-btn_open .burger-btn__line {
+        width: 30px;
+        transform: rotate(-45deg);
+    }
+
     .js-burger-btn.burger-btn.burger-btn_open .burger-btn__line::after {
+        width: 30px;
         transform: rotate(90deg) translate(-10px, 0);;
     }
 }

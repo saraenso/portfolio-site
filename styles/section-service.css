@@ -81,7 +81,8 @@
     }
     
     .service-box {
-        padding: 32px 32px 0 32px;
+        height: unset;
+        padding: 32px 32px 50px 32px;
     }
     
     .service-text-wrapper {
@@ -93,14 +94,14 @@
     }
     
     .service-desc {
-        font-size: 18px;
+        font-size: 25px;
         line-height: 30px;
     }
 }
 
 @media (max-width: 767px) {
     .services-title {
-        max-width: 326px;
+        max-width: 380px;
     }
     
     .services {
@@ -134,7 +135,7 @@
     }
     
     .service-desc {
-        font-size: 18px;
-        line-height: 23px;
+        font-size: 20px;
+        line-height: 25px;
     }
 }

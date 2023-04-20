@@ -40,7 +40,7 @@
 .project-label {
     display: inline-block;
     padding: 0 20px 0 20px;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 47px;
     text-align: center;
     border-radius: 100px;
@@ -104,8 +104,8 @@
     }
     
     .project-label {
-        padding: 0 15px 0 15px;
-        font-size: 16px;
+        padding: 0 18px 0 18px;
+        font-size: 20px;
         line-height: 38px;
     }
     
@@ -158,9 +158,9 @@
     }
     
     .project-label {
-        padding: 0 10px 0 10px;
-        font-size: 13px;
-        line-height: 30px;
+        padding: 0 15px 0 15px;
+        font-size: 18px;
+        line-height: 35px;
     }
     
     .project-title {

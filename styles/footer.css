@@ -61,7 +61,7 @@ footer {
     }
     
     .footer-title {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 21px;
     }
     
@@ -70,12 +70,12 @@ footer {
     }
     
     .footer-social-media-link {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 21px;
     }
     
     .rights {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 19px;
     }
 }
@@ -97,7 +97,7 @@ footer {
     }
     
     .footer-title {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20px;
     }
     
@@ -107,7 +107,7 @@ footer {
     }
     
     .footer-social-media-link {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20px;
     }
 
@@ -117,7 +117,7 @@ footer {
     }
     
     .rights {
-        font-size: 13px;
+        font-size: 16px;
         line-height: 18px;
     }
     

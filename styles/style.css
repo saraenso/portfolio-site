@@ -26,13 +26,13 @@ h1, h2, h3, h4, p, a {
 
 h2 {
     font-size: 55px;
-    line-height: 72px;
+    line-height: 62px;
     color: #FFFFFF;
 }
 
 h3 {
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 50px;
+    line-height: 56px;
     color: #FFFFFF;
 }
 
@@ -50,12 +50,12 @@ a {
 
     h2 {
         font-size: 45px;
-        line-height: 58px;
+        line-height: 48px;
     }
 
     h3 {
-        font-size: 38px;
-        line-height: 39px;
+        font-size: 48px;
+        line-height: 49px;
     }
 }
 
@@ -66,12 +66,12 @@ a {
     }
 
     h2 {
-        font-size: 30px;
-        line-height: 39px;
+        font-size: 40px;
+        line-height: 49px;
     }
 
     h3 {
-        font-size: 28px;
-        line-height: 29px;
+        font-size: 38px;
+        line-height: 39px;
     }
 }

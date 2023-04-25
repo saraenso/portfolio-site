@@ -63,7 +63,7 @@
     background: #191C19;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .section-forms {
         height: 484px;
         padding-top: 50px;

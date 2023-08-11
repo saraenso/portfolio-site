@@ -32,6 +32,11 @@
     border-radius: 24.2609px;
 }
 
+.wrapper-for-project{
+    width: 100%;
+    height: 550px;
+}
+
 .wrapper-for-project::after {
     content: '';
     display: block;

@@ -114,6 +114,14 @@
     .project-img {
         height: 445px;
     }
+
+    .wrapper-for-project{
+        height: 445px;
+    }
+    
+    .wrapper-for-project::after {
+        height: 445px;
+    }
     
     .project-label-wrapper {
         top: 40px;
@@ -167,6 +175,14 @@
     .project-img {
         height: 446px;
         object-position: 15%;
+    }
+
+    .wrapper-for-project{
+        height: 446px;
+    }
+    
+    .wrapper-for-project::after {
+        height: 446px;
     }
     
     .project-label-wrapper {

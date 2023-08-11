@@ -12,6 +12,8 @@
 
 .skill {
     width: calc(50% - 15px);
+    display: flex;
+    flex-direction: column;
 }
 
 .skill-wrapper {
@@ -24,6 +26,7 @@
 .skill-title {
     position: relative;
     color: #c8a2c8;
+    flex-grow: 3;
 }
 
 .skill-desc {
